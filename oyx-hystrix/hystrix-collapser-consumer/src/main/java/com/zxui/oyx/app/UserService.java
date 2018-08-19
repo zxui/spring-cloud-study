@@ -9,15 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Future;
 
-/**
- * @author 翟永超
- * @create 2017/7/25.
- * @blog http://blog.didispace.com
- */
 @Slf4j
 @Service
 public class UserService {

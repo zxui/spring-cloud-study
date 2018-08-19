@@ -10,11 +10,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.concurrent.Future;
 
-/**
- * @author 翟永超
- * @create 2017/7/25.
- * @blog http://blog.didispace.com
- */
 @Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
