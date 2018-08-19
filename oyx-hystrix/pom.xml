@@ -4,18 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zxui.oyx</groupId>
-    <artifactId>spring-cloud-study</artifactId>
+    <artifactId>oyx-hystrix</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <name>spring-cloud-study</name>
-    <description>所有模块</description>
+    <name>oyx-hystrix</name>
+    <description>oyx-hystrix</description>
 
     <modules>
-        <module>oyx-config</module>
-        <module>oyx-eureka</module>
-        <module>oyx-eureka-feign</module>
-        <module>oyx-gateway</module>
-        <module>oyx-hystrix</module>
+        <module>hystrix-collapser-consumer</module>
+        <module>hystrix-collapser-provider</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
 </project>

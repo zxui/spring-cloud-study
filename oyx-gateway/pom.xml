@@ -10,4 +10,9 @@
     <name>oyx-gateway</name>
     <description>oyx-gateway</description>
 
+    <modules>
+        <module>api-gateway</module>
+        <module>api-gateway-with-eureka</module>
+    </modules>
+
 </project>

@@ -10,4 +10,12 @@
     <name>oyx-eureka-feign</name>
     <description>feign</description>
 
+    <modules>
+        <module>eureka-consumer-feign</module>
+        <module>eureka-feign-api</module>
+        <module>eureka-feign-client</module>
+        <module>eureka-feign-consumer</module>
+        <module>eureka-feign-upload-client</module>
+        <module>eureka-feign-upload-server</module>
+    </modules>
 </project>
