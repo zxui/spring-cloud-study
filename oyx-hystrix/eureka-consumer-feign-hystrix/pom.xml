@@ -3,12 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zxui.oyx</groupId>
-    <artifactId>eureka-client</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0</version>
-    <name>eureka-client</name>
-    <description>注册中心客户端</description>
+    <groupId>com.didispace</groupId>
+    <artifactId>eureka-consumer-feign-hystrix</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>eureka-consumer-feign-hystrix</name>
+    <description>Spring Cloud In Action</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -27,17 +28,21 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
-            <!--Spring 官方提供的热部署插件 -->
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 
@@ -61,4 +66,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

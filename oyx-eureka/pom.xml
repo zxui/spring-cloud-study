@@ -11,8 +11,17 @@
     <description>注册中心</description>
 
     <modules>
-        <module>eureka-client</module>
         <module>eureka-server</module>
+        <module>eureka-client</module>
+        <!--最基础的服务调用方式-->
+        <module>eureka-consumer</module>
+        <!--可以支持负载均衡的服务调用方式-->
+        <module>eureka-consumer-ribbon</module>
+        <!--可以支持API包装，更简洁（包含了负载均衡）-->
+        <module>eureka-consumer-feign</module>
+        <!--文件上传-->
+        <module>eureka-feign-upload-client</module>
+        <module>eureka-feign-upload-server</module>
     </modules>
 
 </project>

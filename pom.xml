@@ -13,7 +13,7 @@
     <modules>
         <module>oyx-config</module>
         <module>oyx-eureka</module>
-        <module>oyx-eureka-feign</module>
+        <module>oyx-consul</module>
         <module>oyx-gateway</module>
         <module>oyx-hystrix</module>
     </modules>

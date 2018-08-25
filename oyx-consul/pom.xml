@@ -4,18 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zxui.oyx</groupId>
-    <artifactId>oyx-hystrix</artifactId>
+    <artifactId>oyx-consul</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <name>oyx-hystrix</name>
-    <description>oyx-hystrix</description>
+    <name>oyx-consul</name>
+    <description>oyx-consul</description>
 
     <modules>
-        <module>eureka-consumer-feign-hystrix</module>
-        <module>eureka-consumer-ribbon-hystrix</module>
-        <module>hystrix-collapser-consumer</module>
-        <module>hystrix-collapser-provider</module>
-        <module>hystrix-dashboard</module>
+        <module>consul-client</module>
+        <module>consul-consumer</module>
     </modules>
 
 </project>

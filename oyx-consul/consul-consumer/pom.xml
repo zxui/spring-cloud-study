@@ -4,11 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zxui.oyx</groupId>
-    <artifactId>eureka-client</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0</version>
-    <name>eureka-client</name>
-    <description>注册中心客户端</description>
+    <artifactId>consul-consumer</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>consul-consumer</name>
+    <description>consul-consumer</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,7 +26,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
 
         <dependency>
@@ -34,10 +35,8 @@
         </dependency>
 
         <dependency>
-            <!--Spring 官方提供的热部署插件 -->
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 
@@ -61,4 +60,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
